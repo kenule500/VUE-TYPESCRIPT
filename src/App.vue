@@ -3,6 +3,7 @@
   <button @click="handleClick('salary')">order by salary</button>
   <button @click="handleClick('location')">order by location</button>
   <JobList :jobs="jobs" :order="order" />
+  <p></p>
 </template>
 
 <script lang="ts">
